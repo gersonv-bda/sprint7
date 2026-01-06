@@ -35,4 +35,8 @@ Simplemente selecciona los checkboxes correspondientes para mostrar u ocultar ca
 
 ## Demo
 
-[Aquí puedes agregar un enlace a la aplicación desplegada o capturas de pantalla]
+La aplicación está desplegada y disponible para su uso:
+
+🔗 **[Ver aplicación en vivo](https://visualizador-grafico.onrender.com/)**
+
+> **Nota**: La aplicación está alojada en Render. Si no se ha usado recientemente, puede tardar unos segundos en cargar la primera vez.

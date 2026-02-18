@@ -1,42 +1,30 @@
-# sprint7
-Examen del sprint7 (Herramientas de Desarrollo de Software)
+# 🚗 Visualizador de Datos del Mercado Automotriz
 
-# Visualizador de Diagramas de Vehículos
+### Análisis Exploratorio e Interactivo de Vehículos Usados
 
-## Descripción
+Este proyecto consiste en una aplicación web interactiva diseñada para el análisis de datos de anuncios de venta de vehículos. Mediante el uso de visualizaciones dinámicas, la herramienta permite identificar patrones de depreciación, distribución de kilometraje y tendencias del mercado.
 
-Aplicación web interactiva para la visualización y análisis de datos de vehículos mediante gráficos dinámicos. Esta herramienta permite explorar de manera visual la relación entre el uso y el valor de los vehículos a través de dos tipos de diagramas principales.
+---
 
-## Funcionalidades
+## 🛠️ Funcionalidades y Visualización
+La aplicación permite al usuario realizar diagnósticos visuales rápidos a través de:
 
-La aplicación proporciona dos visualizaciones interactivas mediante checkboxes:
+* **Análisis de Distribución (Histogramas):** Visualización de la frecuencia de vehículos según su kilometraje (odómetro), útil para identificar los rangos de uso más comunes.
+* **Correlación de Depreciación (Dispersión):** Gráficos que comparan el uso acumulado contra el valor de mercado, permitiendo analizar visualmente la tasa de depreciación.
 
-- **Histograma de Distribución del Odómetro**: Muestra la distribución de los vehículos según la distancia recorrida (en millas), permitiendo identificar patrones de uso y rangos de kilometraje más comunes en el conjunto de datos.
+---
 
-- **Diagrama de Dispersión**: Visualiza la relación entre la distancia acumulada del odómetro y el valor de mercado del vehículo, facilitando el análisis de cómo la depreciación se relaciona con el uso.
+## 🧪 Tecnologías Utilizadas
+* **Lenguaje:** ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+* **Framework Web:** ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+* **Análisis de Datos:** ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+* **Visualización:** ![Plotly](https://img.shields.io/badge/Plotly-2A5C9A?style=for-the-badge&logo=plotly&logoColor=white)
 
-## Características
+---
 
-- ✅ Interfaz intuitiva y fácil de usar
-- ✅ Visualizaciones interactivas
-- ✅ Selección dinámica de gráficos mediante checkboxes
-- ✅ Análisis visual de datos de vehículos
+## 🚀 Demo en Vivo
+La aplicación se encuentra desplegada y lista para ser probada:
 
-## Uso
+🔗 **[Acceder a la herramienta en Render](https://visualizador-grafico.onrender.com/)**
 
-Simplemente selecciona los checkboxes correspondientes para mostrar u ocultar cada tipo de diagrama según tus necesidades de análisis.
-
-## Tecnologías
-
-- Lenguaje: Python
-- Framework: Streamlit 
-- Libreria: Plotly_Express
-- Libreria: Pandas
-
-## Demo
-
-La aplicación está desplegada y disponible para su uso:
-
-🔗 **[Ver aplicación en vivo](https://visualizador-grafico.onrender.com/)**
-
-> **Nota**: La aplicación está alojada en Render. Si no se ha usado recientemente, puede tardar unos segundos en cargar la primera vez.
+> **Nota Técnica:** El entorno de despliegue puede entrar en suspensión tras periodos de inactividad. Si el enlace tarda unos segundos en responder, es debido al reinicio del servicio.
